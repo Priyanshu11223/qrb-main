@@ -1,0 +1,176 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class CreatePage5 extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('page5', function (Blueprint $table) {
+            $table->id();
+            $table->bigInteger('UserID');
+            $table->mediumText('q22a')->nullable();
+$table->mediumText('RefNumber-q22a')->nullable();
+$table->integer('q22a-SA')->nullable();
+$table->integer('q22a-SQ')->nullable();
+$table->mediumText('q22b')->nullable();
+$table->mediumText('RefNumber-q22b')->nullable();
+$table->integer('q22b-SA')->nullable();
+$table->integer('q22b-SQ')->nullable();
+$table->mediumText('q22b1')->nullable();
+$table->mediumText('RefNumber-q22b1')->nullable();
+$table->integer('q22b1-SA')->nullable();
+$table->integer('q22b1-SQ')->nullable();
+$table->mediumText('q22b2')->nullable();
+$table->mediumText('RefNumber-q22b2')->nullable();
+$table->integer('q22b2-SA')->nullable();
+$table->integer('q22b2-SQ')->nullable();
+$table->mediumText('q22b3')->nullable();
+$table->mediumText('RefNumber-q22b3')->nullable();
+$table->integer('q22b3-SA')->nullable();
+$table->integer('q22b3-SQ')->nullable();
+$table->mediumText('q22c')->nullable();
+$table->mediumText('RefNumber-q22c')->nullable();
+$table->integer('q22c-SA')->nullable();
+$table->integer('q22c-SQ')->nullable();
+$table->mediumText('q22d')->nullable();
+$table->mediumText('RefNumber-q22d')->nullable();
+$table->integer('q22d-SA')->nullable();
+$table->integer('q22d-SQ')->nullable();
+$table->mediumText('q22e')->nullable();
+$table->mediumText('RefNumber-q22e')->nullable();
+$table->integer('q22e-SA')->nullable();
+$table->integer('q22e-SQ')->nullable();
+$table->mediumText('q23a')->nullable();
+$table->mediumText('RefNumber-q23a')->nullable();
+$table->integer('q23a-SA')->nullable();
+$table->integer('q23a-SQ')->nullable();
+$table->mediumText('q23a1')->nullable();
+$table->mediumText('RefNumber-q23a1')->nullable();
+$table->integer('q23a1-SA')->nullable();
+$table->integer('q23a1-SQ')->nullable();
+$table->mediumText('q23a2')->nullable();
+$table->mediumText('RefNumber-q23a2')->nullable();
+$table->integer('q23a2-SA')->nullable();
+$table->integer('q23a2-SQ')->nullable();
+$table->mediumText('q23b')->nullable();
+$table->mediumText('RefNumber-q23b')->nullable();
+$table->integer('q23b-SA')->nullable();
+$table->integer('q23b-SQ')->nullable();
+$table->mediumText('q23c')->nullable();
+$table->mediumText('RefNumber-q23c')->nullable();
+$table->integer('q23c-SA')->nullable();
+$table->integer('q23c-SQ')->nullable();
+$table->mediumText('q23c1')->nullable();
+$table->mediumText('RefNumber-q23c1')->nullable();
+$table->integer('q23c1-SA')->nullable();
+$table->integer('q23c1-SQ')->nullable();
+$table->mediumText('q23c2')->nullable();
+$table->mediumText('RefNumber-q23c2')->nullable();
+$table->integer('q23c2-SA')->nullable();
+$table->integer('q23c2-SQ')->nullable();
+$table->mediumText('q24a')->nullable();
+$table->mediumText('RefNumber-q24a')->nullable();
+$table->integer('q24a-SA')->nullable();
+$table->integer('q24a-SQ')->nullable();
+$table->mediumText('q24b')->nullable();
+$table->mediumText('RefNumber-q24b')->nullable();
+$table->integer('q24b-SA')->nullable();
+$table->integer('q24b-SQ')->nullable();
+$table->mediumText('q24b1')->nullable();
+$table->mediumText('RefNumber-q24b1')->nullable();
+$table->integer('q24b1-SA')->nullable();
+$table->integer('q24b1-SQ')->nullable();
+$table->mediumText('q24b2')->nullable();
+$table->mediumText('RefNumber-q24b2')->nullable();
+$table->integer('q24b2-SA')->nullable();
+$table->integer('q24b2-SQ')->nullable();
+$table->mediumText('q24b3')->nullable();
+$table->mediumText('RefNumber-q24b3')->nullable();
+$table->integer('q24b3-SA')->nullable();
+$table->integer('q24b3-SQ')->nullable();
+$table->mediumText('q24b4')->nullable();
+$table->mediumText('RefNumber-q24b4')->nullable();
+$table->integer('q24b4-SA')->nullable();
+$table->integer('q24b4-SQ')->nullable();
+$table->mediumText('q24b5')->nullable();
+$table->mediumText('RefNumber-q24b5')->nullable();
+$table->integer('q24b5-SA')->nullable();
+$table->integer('q24b5-SQ')->nullable();
+$table->mediumText('q24b6')->nullable();
+$table->mediumText('RefNumber-q24b6')->nullable();
+$table->integer('q24b6-SA')->nullable();
+$table->integer('q24b6-SQ')->nullable();
+$table->mediumText('q24b7')->nullable();
+$table->mediumText('RefNumber-q24b7')->nullable();
+$table->integer('q24b7-SA')->nullable();
+$table->integer('q24b7-SQ')->nullable();
+$table->mediumText('q24b7a')->nullable();
+$table->mediumText('RefNumber-q24b7a')->nullable();
+$table->integer('q24b7a-SA')->nullable();
+$table->integer('q24b7a-SQ')->nullable();
+$table->mediumText('q25a')->nullable();
+$table->mediumText('RefNumber-q25a')->nullable();
+$table->integer('q25a-SA')->nullable();
+$table->integer('q25a-SQ')->nullable();
+$table->mediumText('q25a1')->nullable();
+$table->mediumText('RefNumber-q25a1')->nullable();
+$table->integer('q25a1-SA')->nullable();
+$table->integer('q25a1-SQ')->nullable();
+$table->mediumText('q25b1')->nullable();
+$table->mediumText('RefNumber-q25b1')->nullable();
+$table->integer('q25b1-SA')->nullable();
+$table->integer('q25b1-SQ')->nullable();
+$table->mediumText('q25b2')->nullable();
+$table->mediumText('RefNumber-q25b2')->nullable();
+$table->integer('q25b2-SA')->nullable();
+$table->integer('q25b2-SQ')->nullable();
+$table->mediumText('q26a')->nullable();
+$table->mediumText('RefNumber-q26a')->nullable();
+$table->integer('q26a-SA')->nullable();
+$table->integer('q26a-SQ')->nullable();
+$table->mediumText('q26a1')->nullable();
+$table->mediumText('RefNumber-q26a1')->nullable();
+$table->integer('q26a1-SA')->nullable();
+$table->integer('q26a1-SQ')->nullable();
+$table->mediumText('q26b')->nullable();
+$table->mediumText('RefNumber-q26b')->nullable();
+$table->integer('q26b-SA')->nullable();
+$table->integer('q26b-SQ')->nullable();
+$table->mediumText('q26c')->nullable();
+$table->mediumText('RefNumber-q26c')->nullable();
+$table->integer('q26c-SA')->nullable();
+$table->integer('q26c-SQ')->nullable();
+$table->mediumText('q26d')->nullable();
+$table->mediumText('RefNumber-q26d')->nullable();
+$table->integer('q26d-SA')->nullable();
+$table->integer('q26d-SQ')->nullable();
+$table->mediumText('q26e')->nullable();
+$table->mediumText('RefNumber-q26e')->nullable();
+$table->integer('q26e-SA')->nullable();
+$table->integer('q26e-SQ')->nullable();
+$table->mediumText('q26e1')->nullable();
+$table->mediumText('RefNumber-q26e1')->nullable();
+$table->integer('q26e1-SA')->nullable();
+$table->integer('q26e1-SQ')->nullable();
+            $table->timestamps();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::dropIfExists('page5');
+    }
+}
